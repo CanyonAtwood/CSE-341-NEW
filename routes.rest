@@ -1,0 +1,60 @@
+### get all contacts
+GET http://localhost:8080/contacts
+
+
+### Get contact by id
+GET http://localhost:8080/contacts/6326a2e2b0241384f2b6f447
+
+
+### Create contact
+post http://localhost:8080/contacts/post
+
+
+
+### put contact -create new resource
+
+PUT http://localhost:8080/contacts/632bf0ef316bc7b251bcb4a8
+
+
+### delete
+DELETE http://localhost:8080/contacts/632bf0ef316bc7b251bcb4a8
+
+
+//production
+### 
+GET https://cse-341-teams.onrender.com/contacts
+
+//by ID
+###
+GET https://cse-341-teams.onrender.com/contacts/6326a2e2b0241384f2b6f447
+
+//create
+###
+POST https://cse-341-teams.onrender.com/contacts
+http:1.1
+Content-Type: application/json
+
+{
+    "firstName":"Ashley",
+    "latName":"Weaver",
+    "email":"ashley@gmail.com",
+    "favoriteColor":"red",
+    "birthday":"9/9/1999"
+}
+
+### PUT contact
+PUT https://cse-341-teams.onrender.com/contacts/632bf0ef316bc7b251bcb4a8
+HTTP:1.1 
+content-type: application/json
+
+{
+"firstName":"Sarah",
+ "lastName":"Birch", 
+ "email":"sarahB@gmail.com",
+  "favoriteColor":"Yellow", 
+  "birthday":"06/12/20"
+}
+
+### DELETE contact
+DELETE https://cse-341-teams.onrender.com/contacts/632bf0ef316bc7b251bcb4a8
+HTTP:1.1

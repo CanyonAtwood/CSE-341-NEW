@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Canyon",
+      "lastName": "Atwood",
+      "email": "CanyonAtwood@gmail.com",
+      "favoriteColor": "blue",
+      "birthday": "12/12/20"
+    },
+    "contact2": {
+      "firstName": "Ridge",
+      "lastName": "Atwood",
+      "email": "ridgeAtwood@gmail.com",
+      "favoriteColor": "Purple",
+      "birthday": "07/12/10"
+    },
+    "contact3": {
+      "firstName": "River",
+      "lastName": "Atwood",
+      "email": "Riveratwood@gmail.com",
+      "favoriteColor": "Yellow",
+      "birthday": "02/22/95"
+    }
+  }
